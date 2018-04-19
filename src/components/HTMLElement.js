@@ -1,5 +1,5 @@
 // Define class here
-class HTMLElement{
+class HTMLElement {
     constructor(tag, content){
         this.tag = tag;
         this.content = content;

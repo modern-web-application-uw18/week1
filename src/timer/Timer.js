@@ -1,17 +1,19 @@
-function Timer(seconds) {
-  this.seconds = seconds;
+class Timer{
+  constructor(seconds){
+    this.seconds = seconds;
+  }
+
+  start(){
+    let seconds = this.seconds;
+    let timerInterval = setInterval(function(){
+      if(seconds === 0){
+        clearInterval(timerInterval);
+      }
+      console.log(seconds);
+      seconds -= 1;
+    }, 1000);
+  }
+
 }
-
-Timer.prototype.start = function() {
-  var instance = this;
-  var timerInterval = setInterval(function() {
-    if (instance.seconds === 0) {
-      clearInterval(timerInterval);
-    }
-
-    console.log(instance.seconds);
-    instance.seconds -= 1;
-  }, 1000);
-};
 
 module.exports = Timer;
