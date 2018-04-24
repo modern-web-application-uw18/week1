@@ -4,14 +4,13 @@ class Timer {
   }
 
   start() {
-    const instance = this;
     const timerInterval = setInterval(() => {
-      if (instance.seconds === 0) {
+      if (this.seconds === 0) {
         clearInterval(timerInterval);
       }
 
-      console.log(instance.seconds);
-      instance.seconds -= 1;
+      console.log(this.seconds);
+      this.seconds -= 1;
     }, 1000);
   }
 }
