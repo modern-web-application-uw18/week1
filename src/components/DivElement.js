@@ -1,7 +1,7 @@
 const HTMLElement = require('./HTMLElement');
 
 // Define class here
-class DivElement extends HTMLElement{
+class DivElement extends HTMLElement {
     constructor(content){
         super(content);
         this.content = content;
@@ -11,7 +11,7 @@ class DivElement extends HTMLElement{
     }
 }
 const andIThinkToMyself = new DivElement('What a wonderful world');
-console.log(andIThinkToMyself.render());
+
 
 // Export class here
 module.exports = {};
