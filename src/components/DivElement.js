@@ -1,4 +1,5 @@
-const HTMLElement = require('./HTMLElement');
+const HTMLElement = require('./HTMLElement').default;
+// import HTMLElement from './HTMLElement'; ES6 unsupported by node -v 8
 
 // Define class here
 class DivElement extends HTMLElement {
@@ -6,8 +7,8 @@ class DivElement extends HTMLElement {
     super('div', content);
   }
 }
-// Export class here
 
-module.exports = DivElement;
+module.exports.default = DivElement;
+// export default DivElement; // ES6 unsupported by node -v 8
 const andIThinkToMyself = new DivElement('What a wonderful world');
 console.log(andIThinkToMyself.render());
