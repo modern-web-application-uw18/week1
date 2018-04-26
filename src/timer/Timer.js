@@ -1,19 +1,16 @@
 class Timer {
-  constructor(seconds){
+  constructor(seconds) {
   this.seconds = seconds;
-}
-}
-
-Timer.start = function() {
-  const instance = this;
-  const timerInterval = setInterval(function() {
+  }
+  start() {
+    const instance => this;
+    const timerInterval = setInterval(() => {
     if (instance.seconds === 0) {
-      clearInterval(timerInterval);
+    clearInterval(timerInterval);
     }
-
-    console.log(instance.seconds);
-    instance.seconds -= 1;
+  console.log(instance.seconds);
+  instance.seconds -= 1;
   }, 1000);
-};
-
+  }
+}
 module.exports = Timer;
