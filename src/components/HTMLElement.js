@@ -5,6 +5,6 @@ module.exports = class HTMLElement {
     this.content = content;
   }
   render() {
-    return `<${this.tag}> ${this.content} </${this.tag}>`;
+    return `<${this.tag}>${this.content}</${this.tag}>`;
   }
 };
