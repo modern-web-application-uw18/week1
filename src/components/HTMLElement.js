@@ -1,5 +1,5 @@
 module.exports = class HTMLElement {
-  contructor(tag, content) {
+  constructor(tag, content) {
     this.tag = tag;
     this.content = content;
   }
