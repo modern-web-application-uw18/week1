@@ -6,5 +6,8 @@ class DivElement extends HTMLElement {
     super('div', content);
     this.contest = content;
   }
+  render() {
+    return `<div>${this.content}</div>`;
+  }
 }
 module.exports = DivElement;
