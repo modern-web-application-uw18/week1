@@ -6,11 +6,15 @@
   "scripts": {
     "test": "eslint ./src && jest"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moorphy/week1"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "eslint": "^4.18.0",
+    "eslint": "^4.19.1",
     "eslint-config-airbnb-base": "^12.1.0",
     "eslint-plugin-import": "^2.8.0",
     "jest": "^22.4.3"
