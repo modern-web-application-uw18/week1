@@ -10,7 +10,8 @@ class HTMLElement {
 }
 
 const p = new HTMLElement('p', 'doing something here');
-p.render();
+console.log(p.render());
+
 
 // Export class here
-module.exports = { HTMLElement };
+module.exports = HTMLElement;

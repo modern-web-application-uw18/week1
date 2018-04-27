@@ -15,4 +15,4 @@ class DivElement extends HTMLElement {
 const andIThinkToMyself = new DivElement('What a wonderful world');
 console.log(andIThinkToMyself.render());
 // Export class here
-module.exports = {};
+module.exports = DivElement;
