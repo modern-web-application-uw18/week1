@@ -1,4 +1,4 @@
-module.exports = class Timer {
+class Timer {
   constructor(seconds) {
     this.seconds = seconds;
   }
@@ -10,4 +10,5 @@ module.exports = class Timer {
       this.seconds -= 1;
     }, 1000);
   }
-};
+}
+module.exports = Timer;
