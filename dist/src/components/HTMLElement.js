@@ -19,7 +19,7 @@ var HTMLElement = function () {
       var tag = this.tag;
       var content = this.content;
 
-      return "<" + tag + "> " + content + " <" + tag + "/>";
+      return "<" + tag + ">" + content + "<" + tag + "/>";
     }
   }, {
     key: "render",

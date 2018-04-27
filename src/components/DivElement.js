@@ -13,7 +13,3 @@ class DivElement extends HTMLElement {
 
 // Export class here
 module.exports = DivElement;
-
-const andIThinkToMyself = new DivElement('What a wonderful world');
-
-console.log(andIThinkToMyself.render());

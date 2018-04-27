@@ -37,7 +37,3 @@ var DivElement = function (_HTMLElement) {
 
 
 module.exports = DivElement;
-
-var andIThinkToMyself = new DivElement('What a wonderful world');
-
-console.log(andIThinkToMyself.render());

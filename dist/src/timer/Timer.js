@@ -8,16 +8,6 @@ var _createClass = function () { function defineProperties(target, props) { for 
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
-// function doWork(obj) {
-//   obj.tick = setInterval(() => {
-//     if (obj.seconds === 0) {
-//       clearInterval(obj.tick);
-//     }
-//     console.log(obj.seconds);
-//     obj.seconds -= 1;
-//   }, 1000);
-// }
-
 var Timer = function () {
   function Timer(seconds) {
     _classCallCheck(this, Timer);

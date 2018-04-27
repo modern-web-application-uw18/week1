@@ -4,9 +4,7 @@
   "description": "Week 1 Assignment",
   "main": "./src/timer/runTimer.js",
   "scripts": {
-    "test": "eslint ./src && jest",
-    "build": "rimraf dist/ && babel ./ --out-dir dist/ --ignore ./node_modules,./.babelrc,./package.json,./npm-debug.log --copy-files",
-    "start": "npm run build && node dist/src/timer/runTimer.js"
+    "test": "eslint ./src && jest"
   },
   "keywords": [],
   "author": "",
