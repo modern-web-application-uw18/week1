@@ -4,6 +4,7 @@ const HTMLElement = require('./HTMLElement');
 class DivElement extends HTMLElement {
   contructor(content) {
     super('div', content);
+    this.contest = content;
   }
 }
 module.exports = DivElement;
