@@ -1,3 +1,4 @@
+/* eslint-disable eol-last */
 const HTMLElement = require('./HTMLElement');
 
 // Define class here
