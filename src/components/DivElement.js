@@ -6,7 +6,6 @@ class DivElement extends HTMLElement {
     super('div', content);
   }
 }
-const Divstuff = new DivElement('This is content from DivElement.js. This could be used for composing content that needs to be updated from a db and then spat out to different pages. Handy!'); 
-console.log('test output from DivElement: ', Divstuff.render());
+const Divstuff = new DivElement('This is content from DivElement.js. This could be used for composing content that needs to be updated from a db and then spat out to different pages. Handy!');
 // Export class here
 module.exports = DivElement;
