@@ -1,7 +1,7 @@
 // Define class here
 class HTMLElement {
   constructor(tag, content) {
-    this.tag = tag;
+    this.tag = tag.toLowerCase();
     this.content = content;
   }
 
