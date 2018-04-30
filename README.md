@@ -23,7 +23,7 @@
    ```js
    const lovelaceQuote = new HTMLElement('p', 'I am never so happy as when I am really engaged in good earnest...');
 
-   console.log(lovelaveQuote.render());
+   console.log(lovelaceQuote.render());
    // prints "<p>I am never so happy as when I am really engaged in good earnest...</p>"
    ```
 2. The folder **src/components** contains a file called `DivElement.js`. In this file, create a module that meets the following requirements:
