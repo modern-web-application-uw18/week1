@@ -1,4 +1,3 @@
-// Define class here
 class HTMLElement {
   constructor(tag, content) {
     this.tag = tag;
@@ -12,11 +11,10 @@ class HTMLElement {
     //   return "<" + this.tag + " " + this.content + ">";
     // }  future work on singular tags
     // else{
-
     return `<${this.tag}>${this.content}</${this.tag}>`;
     // }
   }
 }
 
 // Export class here
-module.exports = { };
+module.exports = HTMLElement;

@@ -9,13 +9,13 @@ class Timer {
       if (this.seconds === 0) {
         clearInterval(timerInterval);
       }
-      // console.log(instance.seconds);
+
       this.seconds -= 1;
     }, 1000);
   }
 }
-
-export default Timer;
+module.exports = Timer;
+// export default Timer;
 // original code
 // function Timer(seconds) {
 //   this.seconds = seconds;
