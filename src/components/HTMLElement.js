@@ -1,4 +1,5 @@
 // Define class here
+
 class HTMLElement {
   constructor(tag, content) {
     this.tag = tag;
@@ -9,10 +10,9 @@ class HTMLElement {
   }
 }
 
-/* let foo = new HTMLElement("div", "goodbye");
-console.log(foo);
-let htmlString = foo.render();
-console.log(htmlString); */
+const lovelaceQuote = new HTMLElement('p', 'I am never so happy as when I am really engaged in good earnest...');
+
+console.log(lovelaceQuote.render());
 
 // Export class here
 module.exports = HTMLElement;
