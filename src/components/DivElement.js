@@ -3,11 +3,8 @@ const HTMLElement = require('./HTMLElement');
 // Define class here
 class DivElement extends HTMLElement {
   constructor(content) {
-    super(content);
+    super('div', content);
     this.content = content;
-  }
-  render() {
-    return `<div>${this.content}</div>`;
   }
 }
 
