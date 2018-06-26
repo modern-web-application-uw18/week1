@@ -4,7 +4,7 @@ const HTMLElement = require('./HTMLElement');
 
 class DivElement extends HTMLElement {
   constructor(content) {
-    super();
+    super('div', content);
     this.content = content;
   }
 

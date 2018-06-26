@@ -7,7 +7,6 @@ class HTMLElement {
   }
 
   render() {
-    //    console.log(`<${this.tag}>${this.content}</${this.tag}>`);
     return `<${this.tag}>${this.content}</${this.tag}>`;
   }
 }
