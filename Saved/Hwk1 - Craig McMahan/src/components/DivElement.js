@@ -4,8 +4,12 @@ const HTMLElement = require('./HTMLElement');
 
 class DivElement extends HTMLElement {
   constructor(content) {
-    super('div', content);
+    super();
     this.content = content;
+  }
+
+  render() {
+    return `<div>${this.content}</div>`;
   }
 }
 
