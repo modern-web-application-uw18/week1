@@ -7,10 +7,6 @@ class DivElement extends HTMLElement {
     super('div', content);
     this.content = content;
   }
-
-  render() {
-    return `<div>${this.content}</div>`;
-  }
 }
 
 // Export class here
